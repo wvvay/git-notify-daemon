@@ -21,7 +21,16 @@ sudo apt-get install python3-gi
 sudo apt-get install libnotify-dev
 ```
 
-### Шаг 3: Запуск
+
+### Шаг 3: Путь
+
+Поменять путь на местоположения репозитория
+
+```bash
+os.chdir('<>/git-notify-daemon')
+```
+
+### Шаг 4: Запуск
 
 ```bash
 python3 daemon_commit.py <start | stop | restart>
