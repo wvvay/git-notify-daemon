@@ -115,7 +115,7 @@ class Daemon:
 
 class MyDaemon(Daemon):
     def run(self):
-        os.chdir('/home/mudarisov/Desktop/Buffer/Daemon/gg/git-notify-daemon')
+        os.chdir(r'/mnt/c/Users/user/Desktop/Алмаз/КГЭУ/DEVOPS/Python для DevOps/lab44/git-notify-daemon/')
         while True:
             time.sleep(5)
             check_new_commits()
