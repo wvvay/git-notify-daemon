@@ -573,7 +573,7 @@ def main():
             print("Unknown command. Use 'start', 'stop', 'restart', 'check_updates', or 'status'.")
             sys.exit(1)
     else:
-        print("Usage: {} start|stop|restart|status".format(sys.argv[0]))
+        print("Usage: {} start|stop|restart|check_updates|status".format(sys.argv[0]))
         sys.exit(1)
 
 if __name__ == "__main__":
