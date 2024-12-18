@@ -3,3 +3,4 @@ git remote set-url origin git@github.com:wvvay/git-notify-daemon.git
 gg
 gg2
 gg3
+gg4
