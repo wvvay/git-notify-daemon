@@ -41,5 +41,5 @@ os.chdir('<>/git-notify-daemon')
 ### Шаг 5: Запуск
 
 ```bash
-python3 daemon_commit.py <start | stop | restart>
+python3 daemon_commit.py <start | stop | restart | check_updates | status>
 ```
